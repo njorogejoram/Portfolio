@@ -16,7 +16,7 @@ nav.querySelectorAll('a').forEach(link => {
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const revealTargets = document.querySelectorAll(
-  '.section-label, .about-grid, .quick-facts, .section-heading-row, .skill-card, .project-card, .contact-title, .contact-copy'
+  '.section-label, .about-grid, .quick-facts, .section-heading-row, .skill-card, .project-card, .contact-title, .contact-copy, .social-link'
 );
 revealTargets.forEach(el => el.classList.add('reveal'));
 
